@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Playground ideas</title>
+    <style type="text/css">
+        /* Client-specific Styles */
+        #outlook a {padding:0;} /* Force Outlook to provide a "view in browser" menu link. */
+        body{width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0;}
+        /* Prevent Webkit and Windows Mobile platforms from changing default font sizes, while not breaking desktop design. */
+        .ExternalClass {width:100%;} /* Force Hotmail to display emails at full width */
+        .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotmail to display normal line spacing.  More on that: http://www.emailonacid.com/forum/viewthread/43/ */
+        #backgroundTable {margin:0; padding:0; width:100% !important; line-height: 100% !important;}
+        /* End reset */
+        body {
+            font-family: Arial;
+            font-size: 14px;
+            margin: 0;
+            background-color: #f0f0f0;
+            line-height: 1.5;
+        }
+        p {
+            margin: 0 0 14px 0;
+        }
+        table {
+            margin-top: 30px;
+            width: 600px;
+            border: 1px solid #000;
+        }
+        #head img {
+            display: block;
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 10px 0;
+        }
+        #content {
+            padding: 10px 3px 25px 30px;
+            background: #FFFFFF;
+        }
+    </style>
+</head>
+<body>
+<table align="center" cellspacing="0" cellpadding="0">
+    <tr>
+        <td id="head">
+            <img src="{{logo_img_url}}" alt="Playground ideas" />
+        </td>
+    </tr>
+    <tr>
+        <td id="content">
+            <p>Congratulations! You're in the draw to win a Year of Awesome!</p>
+            <p>{{email_text}}</p>
+            <p>Thanks for your support and good luck. </p>
+            <p>Your ticket details:</p>
+            <p>
+                Name: {{user_name}}<br/>
+                Phone number: {{user_phone}}<br/>
+                Ticket Number/s: {{user_tickets}}
+            </p>
+            <p>Please share the <a href="{{yoa_page_url}}">Year of Awesome Facebook</a> page with your networks. </p>
+            <p>Contact yearofawesome@playgroundideas.org for more information.</p>
+            <p>
+                Kind regards,<br/>
+                The Playground ideas team
+            </p>
+            <p>Raffle permit No: 10586/17</p>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
